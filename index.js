@@ -7,10 +7,15 @@ function isPalindrome(word) {
 
 /* 
   Add your pseudocode here
+  Create a new variable reverseWord
+  Split it, reverse the splitted word and joining it back to a string
+  If the reversed word is same as the original word it returns true else false
 */
 
 /*
   Add written explanation of your solution here
+  I created a new variable reverseWord which is equivalent to the word which is splitted, reversed and joined
+  The code checks if the reverseWord is equal to word and it returns true else false if they are not equal
 */
 
 // You can run `node index.js` to view these console logs
